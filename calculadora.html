@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app="calcApp">
+    <div ng-controller="CalcController">
+      <input type="number" ng-model="operator1">
+      <input type="number" ng-model="operator2">
+
+      <button type="button" ng-click="add()">+</button>
+      <button type="button" ng-click="sub()">-</button>
+
+      <input type="number" ng-model="result">
+    </div>
+
+    <script src="angular/angular.js"></script>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
